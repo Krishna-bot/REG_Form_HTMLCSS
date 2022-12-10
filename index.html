@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="description" content="IE=edge">    
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="form">
+            <form action="submit" method="post">
+                <h1>SignUP</h1>
+                <input  class="input" type="text" placeholder="Name" required>
+                <input  class="input" type="email" placeholder="Email" required>
+                <input  class="input" type="password" placeholder="Password" required>
+                <input  class="input" type="password" placeholder="Confirm Password" required>
+                <input  class="input" type="date" placeholder="" required>    
+                <div class="radio">
+                    <input class="radio" type="radio" id="employee" name="gender" required>  <label>Employee</label>
+	            <input type="radio" id="student" name="gender" required> <label>Student</label> 
+                </div>    
+                <input style="margin: 10px 10px 10px 20px; flex-direction: column;" type="checkbox" > I agree to all the Terms and conditions. 
+	            <button class="btn" value="submit" type="submit">submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
